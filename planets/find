@@ -1,0 +1,22 @@
+lucas@lucas-ThinkPad:~/quests/shell/planets$ find
+.
+./inhabited
+./inhabited/arrakis.jpeg
+./inhabited/earth.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/cybertron.jpeg
+./fictional
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./fictional/cybertron.jpeg
+./real
+./real/terrestrial
+./real/terrestrial/earth.jpeg
+./real/terrestrial/mercury.jpeg
+./real/gas-giants
+./real/gas-giants/venus.jpeg
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/uranus.jpeg
+./real/mars.jpeg
+./real/neptune.jpeg
