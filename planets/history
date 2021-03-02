@@ -1,0 +1,46 @@
+   74  sudo apt-get install -y curl unzip
+   75  clear
+   76  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+   77  unzip planets.zip
+   78  cd planets
+   79  mkdir real fictional inhabited
+   80  ls
+   81  cd real
+   82  mkdir terrestrial gas-giants dwarf-planets
+   83  ls
+   84  cd ..
+   85  mv arrakis.jpeg fictionnal
+   86  mv earth.jpeg real/terrestrial/
+   87  mv jupiter.jpeg real/gas-giants/
+   88  mv neptune inhabited/
+   89  mv neptune.jpeg inhabited/
+   90  mv saturn.jpeg real/gas-giants/
+   91  mv coruscant.jpeg fictional/
+   92  mv mars.jpeg inhabited/
+   93  mv pluto.jpeg real/dwarf-planets/
+   94  mv uranus.jpeg real/gas-giants/
+   95  mv cybertron.jpeg fictional/
+   96  mv mercury.jpeg real/terrestrial/
+   97  ls
+   98  mv venus.jpeg real/gas-giants/
+   99  ls
+  100  rmdir fictionnal 
+  101  rm fictionnal 
+  102  ls
+  103  ls fictional/
+  104  ls real/terrestrial/
+  105  cd ..
+  106  cd planets
+  107  ls fictional/
+  108  cp fictional/arrakis.jpeg fictional/coruscant.jpeg fictional/cybertron.jpeg inhabited/
+  109  ls
+  110  ls inhabited/
+  111  mv inhabited/mars.jpeg inhabited/neptune.jpeg real/
+  112  ls
+  113  ls inhabited/
+  114  cp real/terrestrial/earth.jpeg inhabited/
+  115  ls inhabited/
+  116  ls real/dwarf-planets/
+  117  rm -r real/dwarf-planets/
+  118  find
+  119  history 
