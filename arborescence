@@ -1,0 +1,51 @@
+lucas@lucas-ThinkPad:~$ pwd
+/home/lucas
+lucas@lucas-ThinkPad:~$ cd ..
+lucas@lucas-ThinkPad:/home$ pwd
+/home
+lucas@lucas-ThinkPad:/home$ cd..
+cd.. : commande introuvable
+lucas@lucas-ThinkPad:/home$ pwd
+/home
+lucas@lucas-ThinkPad:/home$ cd ..
+lucas@lucas-ThinkPad:/$ pwd
+/
+lucas@lucas-ThinkPad:/$ ls
+bin    dev   lib    libx32      mnt   root  snap      sys  var
+boot   etc   lib32  lost+found  opt   run   srv       tmp
+cdrom  home  lib64  media       proc  sbin  swapfile  usr
+lucas@lucas-ThinkPad:/$ cd home
+lucas@lucas-ThinkPad:/home$ ls
+lucas
+lucas@lucas-ThinkPad:/home$ cd lucas
+lucas@lucas-ThinkPad:~$ ls
+Bureau     Images   Musique  snap             Vidéos
+Documents  Modèles  Public   Téléchargements
+lucas@lucas-ThinkPad:~$ ls .
+Bureau     Images   Musique  snap             Vidéos
+Documents  Modèles  Public   Téléchargements
+lucas@lucas-ThinkPad:~$ ls -a
+.              Bureau     Images    .pki      .sudo_as_admin_successful
+..             .cache     .local    .profile  Téléchargements
+.bash_history  .config    Modèles   Public    .thunderbird
+.bash_logout   Documents  .mozilla  snap      Vidéos
+.bashrc        .gnupg     Musique   .ssh      .vscode
+lucas@lucas-ThinkPad:~$ ls Images
+lucas@lucas-ThinkPad:~$ ls ./Images
+lucas@lucas-ThinkPad:~$ cd images
+bash: cd: images: Aucun fichier ou dossier de ce type
+lucas@lucas-ThinkPad:~$ cd Images
+lucas@lucas-ThinkPad:~/Images$ ls
+lucas@lucas-ThinkPad:~/Images$ cd ..
+lucas@lucas-ThinkPad:~$ ls -l
+total 36
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:13 Bureau
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:13 Documents
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:13 Images
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:13 Modèles
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:13 Musique
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:13 Public
+drwxr-xr-x 4 lucas lucas 4096 mars   1 14:52 snap
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:27 Téléchargements
+drwxr-xr-x 2 lucas lucas 4096 mars   1 14:13 Vidéos
+lucas@lucas-ThinkPad:~$ 
